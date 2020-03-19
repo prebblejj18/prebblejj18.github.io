@@ -1,1 +1,34 @@
-hello
+html, body {
+    margin-left:0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.images {
+    background-image: url('IMG_8806.jpg');
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#div2, #div3, #div4, #div5, #div6 {
+    
+    width:600px;
+    height:100px;
+    display:none;
+    background-color:green;
+    margin: auto;
+    text-align: center;
+    font-family: "Gill Sans";
+    font-size: 40px;
+    line-height: 100px;
+    color: white;
+    margin-bottom: 25px;
+    
+}
+
