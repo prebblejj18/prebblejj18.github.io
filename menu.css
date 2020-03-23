@@ -19,16 +19,20 @@ html, body {
 #div2, #div3, #div4, #div5, #div6 {
     
     width:600px;
-    height:100px;
+    height:90px;
     display:none;
-    background-color:green;
     margin: auto;
     text-align: center;
-    font-family: "Gill Sans";
-    font-size: 40px;
+    font-size: 65px;
     line-height: 100px;
     color: white;
+    padding-top: 10px;
     margin-bottom: 25px;
-    
+    font-family: "myFirstFont";
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url("gill.TTF")
 }
 

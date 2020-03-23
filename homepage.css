@@ -1,7 +1,18 @@
 html, body {
     margin-left:0px;
     margin-right: 0px;
+    font-family: "myFirstFont";
 }
+
+.topbar {
+    
+    font-size: 30px;
+    height: 45px;
+    width: 100%;
+    margin: auto;
+    
+}
+
 
 .parallax1 {
   /* The image used */
@@ -41,3 +52,9 @@ html, body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+@font-face {
+  font-family: myFirstFont;
+  src: url("gill.TTF")
+}
+
